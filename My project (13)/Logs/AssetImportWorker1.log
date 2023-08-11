@@ -1,0 +1,932 @@
+Unity Editor version:    2022.3.5f1 (9674261d40ee)
+Branch:                  2022.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.0 (Build 23A5286i)
+Darwin version:          23.0.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51761
+Successfully changed project path to: /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)
+/Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8107586176] Host "[IP] 192.168.1.249 [Port] 0 [Flags] 2 [Guid] 988639694 [EditorId] 988639694 [Version] 1048832 [Id] OSXEditor(0,mUNEERs-Mini.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8107586176] Host "[IP] 192.168.1.249 [Port] 0 [Flags] 2 [Guid] 988639694 [EditorId] 988639694 [Version] 1048832 [Id] OSXEditor(0,mUNEERs-Mini.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 14.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.5f1 (9674261d40ee)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56827
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.5f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001097 seconds.
+- Loaded All Assemblies, in  0.271 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 77 ms
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.291 seconds
+Domain Reload Profiling: 562ms
+	BeginReloadAssembly (83ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (117ms)
+		LoadAssemblies (82ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (115ms)
+			TypeCache.Refresh (115ms)
+				TypeCache.ScanAssembly (106ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (291ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (245ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (153ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (60ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.614 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+w32error-unix.c: unknown error (60) "Operation timed out"
+System.IO.IOException: Win32 IO returned ERROR_NOT_SUPPORTED. Path: /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+  at System.IO.FileStream.ReadData (System.Runtime.InteropServices.SafeHandle safeHandle, System.Byte[] buf, System.Int32 offset, System.Int32 count) [0x0002d] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.FileStream.ReadInternal (System.Byte[] dest, System.Int32 offset, System.Int32 count) [0x00026] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.FileStream.Read (System.Byte[] array, System.Int32 offset, System.Int32 count) [0x000a1] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.StreamReader.ReadBuffer () [0x00028] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.StreamReader.ReadToEnd () [0x00059] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00009] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.File.ReadAllText (System.String path) [0x0002c] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.TryLoadSavedJson (System.String& json) [0x00016] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:104 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.Init () [0x00010] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:53 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.ContainsKey[T] (System.String key) [0x00000] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:198 
+  at UnityEditor.SettingsManagement.Settings.ContainsKey[T,K] (System.String key, System.String repositoryName) [0x0002d] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/Settings.cs:249 
+  at UnityEditor.SettingsManagement.Settings.ContainsKey[T] (System.String key, UnityEditor.SettingsScope scope) [0x00004] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/Settings.cs:217 
+  at UnityEditor.TestTools.CodeCoverage.CoveragePreferencesImplementation.GetBool (System.String key, System.Boolean defaultValue, UnityEditor.SettingsScope scope) [0x00000] in ./Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/Editor/CoveragePreferences.cs:40 
+  at UnityEditor.TestTools.CodeCoverage.CoverageReporterStarter..cctor () [0x0000c] in ./Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/Editor/CoverageReporterListener.cs:148 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:123)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 123)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.382 seconds
+Domain Reload Profiling: 996ms
+	BeginReloadAssembly (81ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (471ms)
+		LoadAssemblies (260ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (240ms)
+			TypeCache.Refresh (228ms)
+				TypeCache.ScanAssembly (218ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (382ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (262ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (192ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3448 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (51.4 KB). Loaded Objects now: 3916.
+Memory consumption went from 133.5 MB to 133.4 MB.
+Total: 2.526125 ms (FindLiveObjects: 0.112916 ms CreateObjectMapping: 0.042334 ms MarkObjects: 2.280041 ms  DeleteObjects: 0.090250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+w32error-unix.c: unknown error (60) "Operation timed out"
+IOException: Win32 IO returned ERROR_NOT_SUPPORTED. Path: /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.Save () [0x000e2] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:154 
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in /Users/bokken/build/output/unity/unity/Editor/Mono/AssemblyReloadEvents.cs:27 
+
+(Filename: ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs Line: 154)
+
+Thread 0x2904c7000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.527 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+w32error-unix.c: unknown error (60) "Operation timed out"
+System.IO.IOException: Win32 IO returned ERROR_NOT_SUPPORTED. Path: /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+  at System.IO.FileStream.ReadData (System.Runtime.InteropServices.SafeHandle safeHandle, System.Byte[] buf, System.Int32 offset, System.Int32 count) [0x0002d] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.FileStream.ReadInternal (System.Byte[] dest, System.Int32 offset, System.Int32 count) [0x00026] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.FileStream.Read (System.Byte[] array, System.Int32 offset, System.Int32 count) [0x000a1] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.StreamReader.ReadBuffer () [0x00028] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.StreamReader.ReadToEnd () [0x00059] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00009] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.File.ReadAllText (System.String path) [0x0002c] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.TryLoadSavedJson (System.String& json) [0x00016] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:104 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.Init () [0x00010] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:53 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.ContainsKey[T] (System.String key) [0x00000] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:198 
+  at UnityEditor.SettingsManagement.Settings.ContainsKey[T,K] (System.String key, System.String repositoryName) [0x0002d] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/Settings.cs:249 
+  at UnityEditor.SettingsManagement.Settings.ContainsKey[T] (System.String key, UnityEditor.SettingsScope scope) [0x00004] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/Settings.cs:217 
+  at UnityEditor.TestTools.CodeCoverage.CoveragePreferencesImplementation.GetBool (System.String key, System.Boolean defaultValue, UnityEditor.SettingsScope scope) [0x00000] in ./Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/Editor/CoveragePreferences.cs:40 
+  at UnityEditor.TestTools.CodeCoverage.CoverageReporterStarter..cctor () [0x0000c] in ./Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/Editor/CoverageReporterListener.cs:148 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:123)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 123)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.588 seconds
+Domain Reload Profiling: 1115ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (336ms)
+		LoadAssemblies (143ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (219ms)
+			TypeCache.Refresh (216ms)
+				TypeCache.ScanAssembly (208ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (588ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (241ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (172ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3919.
+Memory consumption went from 137.2 MB to 137.1 MB.
+Total: 2.651584 ms (FindLiveObjects: 0.134125 ms CreateObjectMapping: 0.042667 ms MarkObjects: 2.437750 ms  DeleteObjects: 0.036334 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+w32error-unix.c: unknown error (60) "Operation timed out"
+IOException: Win32 IO returned ERROR_NOT_SUPPORTED. Path: /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.Save () [0x000e2] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:154 
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in /Users/bokken/build/output/unity/unity/Editor/Mono/AssemblyReloadEvents.cs:27 
+
+(Filename: ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs Line: 154)
+
+Thread 0x285a47000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.526 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+w32error-unix.c: unknown error (60) "Operation timed out"
+System.IO.IOException: Win32 IO returned ERROR_NOT_SUPPORTED. Path: /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+  at System.IO.FileStream.ReadData (System.Runtime.InteropServices.SafeHandle safeHandle, System.Byte[] buf, System.Int32 offset, System.Int32 count) [0x0002d] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.FileStream.ReadInternal (System.Byte[] dest, System.Int32 offset, System.Int32 count) [0x00026] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.FileStream.Read (System.Byte[] array, System.Int32 offset, System.Int32 count) [0x000a1] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.StreamReader.ReadBuffer () [0x00028] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.StreamReader.ReadToEnd () [0x00059] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00009] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.File.ReadAllText (System.String path) [0x0002c] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.TryLoadSavedJson (System.String& json) [0x00016] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:104 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.Init () [0x00010] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:53 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.ContainsKey[T] (System.String key) [0x00000] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:198 
+  at UnityEditor.SettingsManagement.Settings.ContainsKey[T,K] (System.String key, System.String repositoryName) [0x0002d] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/Settings.cs:249 
+  at UnityEditor.SettingsManagement.Settings.ContainsKey[T] (System.String key, UnityEditor.SettingsScope scope) [0x00004] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/Settings.cs:217 
+  at UnityEditor.TestTools.CodeCoverage.CoveragePreferencesImplementation.GetBool (System.String key, System.Boolean defaultValue, UnityEditor.SettingsScope scope) [0x00000] in ./Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/Editor/CoveragePreferences.cs:40 
+  at UnityEditor.TestTools.CodeCoverage.CoverageReporterStarter..cctor () [0x0000c] in ./Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/Editor/CoverageReporterListener.cs:148 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:123)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 123)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.851 seconds
+Domain Reload Profiling: 1377ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (347ms)
+		LoadAssemblies (152ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (222ms)
+			TypeCache.Refresh (219ms)
+				TypeCache.ScanAssembly (209ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (851ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (256ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (180ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3922.
+Memory consumption went from 142.9 MB to 142.8 MB.
+Total: 2.524042 ms (FindLiveObjects: 0.132209 ms CreateObjectMapping: 0.045000 ms MarkObjects: 2.300292 ms  DeleteObjects: 0.045917 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+w32error-unix.c: unknown error (60) "Operation timed out"
+IOException: Win32 IO returned ERROR_NOT_SUPPORTED. Path: /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.Save () [0x000e2] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:154 
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in /Users/bokken/build/output/unity/unity/Editor/Mono/AssemblyReloadEvents.cs:27 
+
+(Filename: ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs Line: 154)
+
+Thread 0x285a47000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.578 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+w32error-unix.c: unknown error (60) "Operation timed out"
+System.IO.IOException: Win32 IO returned ERROR_NOT_SUPPORTED. Path: /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+  at System.IO.FileStream.ReadData (System.Runtime.InteropServices.SafeHandle safeHandle, System.Byte[] buf, System.Int32 offset, System.Int32 count) [0x0002d] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.FileStream.ReadInternal (System.Byte[] dest, System.Int32 offset, System.Int32 count) [0x00026] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.FileStream.Read (System.Byte[] array, System.Int32 offset, System.Int32 count) [0x000a1] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.StreamReader.ReadBuffer () [0x00028] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.StreamReader.ReadToEnd () [0x00059] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00009] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.File.ReadAllText (System.String path) [0x0002c] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.TryLoadSavedJson (System.String& json) [0x00016] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:104 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.Init () [0x00010] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:53 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.ContainsKey[T] (System.String key) [0x00000] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:198 
+  at UnityEditor.SettingsManagement.Settings.ContainsKey[T,K] (System.String key, System.String repositoryName) [0x0002d] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/Settings.cs:249 
+  at UnityEditor.SettingsManagement.Settings.ContainsKey[T] (System.String key, UnityEditor.SettingsScope scope) [0x00004] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/Settings.cs:217 
+  at UnityEditor.TestTools.CodeCoverage.CoveragePreferencesImplementation.GetBool (System.String key, System.Boolean defaultValue, UnityEditor.SettingsScope scope) [0x00000] in ./Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/Editor/CoveragePreferences.cs:40 
+  at UnityEditor.TestTools.CodeCoverage.CoverageReporterStarter..cctor () [0x0000c] in ./Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/Editor/CoverageReporterListener.cs:148 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:123)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 123)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.188 seconds
+Domain Reload Profiling: 1766ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (376ms)
+		LoadAssemblies (167ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (240ms)
+			TypeCache.Refresh (235ms)
+				TypeCache.ScanAssembly (224ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (1189ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (569ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (497ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3925.
+Memory consumption went from 148.6 MB to 148.5 MB.
+Total: 3.192334 ms (FindLiveObjects: 0.169042 ms CreateObjectMapping: 0.061125 ms MarkObjects: 2.866375 ms  DeleteObjects: 0.094875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+w32error-unix.c: unknown error (60) "Operation timed out"
+IOException: Win32 IO returned ERROR_NOT_SUPPORTED. Path: /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.Save () [0x000e2] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:154 
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in /Users/bokken/build/output/unity/unity/Editor/Mono/AssemblyReloadEvents.cs:27 
+
+(Filename: ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs Line: 154)
+
+Thread 0x16aea3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.737 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+w32error-unix.c: unknown error (60) "Operation timed out"
+System.IO.IOException: Win32 IO returned ERROR_NOT_SUPPORTED. Path: /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+  at System.IO.FileStream.ReadData (System.Runtime.InteropServices.SafeHandle safeHandle, System.Byte[] buf, System.Int32 offset, System.Int32 count) [0x0002d] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.FileStream.ReadInternal (System.Byte[] dest, System.Int32 offset, System.Int32 count) [0x00026] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.FileStream.Read (System.Byte[] array, System.Int32 offset, System.Int32 count) [0x000a1] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.StreamReader.ReadBuffer () [0x00028] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.StreamReader.ReadToEnd () [0x00059] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00009] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.File.ReadAllText (System.String path) [0x0002c] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.TryLoadSavedJson (System.String& json) [0x00016] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:104 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.Init () [0x00010] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:53 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.ContainsKey[T] (System.String key) [0x00000] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:198 
+  at UnityEditor.SettingsManagement.Settings.ContainsKey[T,K] (System.String key, System.String repositoryName) [0x0002d] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/Settings.cs:249 
+  at UnityEditor.SettingsManagement.Settings.ContainsKey[T] (System.String key, UnityEditor.SettingsScope scope) [0x00004] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/Settings.cs:217 
+  at UnityEditor.TestTools.CodeCoverage.CoveragePreferencesImplementation.GetBool (System.String key, System.Boolean defaultValue, UnityEditor.SettingsScope scope) [0x00000] in ./Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/Editor/CoveragePreferences.cs:40 
+  at UnityEditor.TestTools.CodeCoverage.CoverageReporterStarter..cctor () [0x0000c] in ./Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/Editor/CoverageReporterListener.cs:148 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:123)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 123)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.333 seconds
+Domain Reload Profiling: 2069ms
+	BeginReloadAssembly (279ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (401ms)
+		LoadAssemblies (184ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (247ms)
+			TypeCache.Refresh (244ms)
+				TypeCache.ScanAssembly (233ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (1333ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (751ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (678ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3928.
+Memory consumption went from 154.2 MB to 154.2 MB.
+Total: 6.668500 ms (FindLiveObjects: 0.157833 ms CreateObjectMapping: 0.044542 ms MarkObjects: 6.409291 ms  DeleteObjects: 0.056167 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+w32error-unix.c: unknown error (60) "Operation timed out"
+IOException: Win32 IO returned ERROR_NOT_SUPPORTED. Path: /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.Save () [0x000e2] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:154 
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in /Users/bokken/build/output/unity/unity/Editor/Mono/AssemblyReloadEvents.cs:27 
+
+(Filename: ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs Line: 154)
+
+Thread 0x16aea3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.584 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+w32error-unix.c: unknown error (60) "Operation timed out"
+System.IO.IOException: Win32 IO returned ERROR_NOT_SUPPORTED. Path: /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+  at System.IO.FileStream.ReadData (System.Runtime.InteropServices.SafeHandle safeHandle, System.Byte[] buf, System.Int32 offset, System.Int32 count) [0x0002d] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.FileStream.ReadInternal (System.Byte[] dest, System.Int32 offset, System.Int32 count) [0x00026] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.FileStream.Read (System.Byte[] array, System.Int32 offset, System.Int32 count) [0x000a1] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.StreamReader.ReadBuffer () [0x00028] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.StreamReader.ReadToEnd () [0x00059] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00009] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.File.ReadAllText (System.String path) [0x0002c] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.TryLoadSavedJson (System.String& json) [0x00016] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:104 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.Init () [0x00010] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:53 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.ContainsKey[T] (System.String key) [0x00000] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:198 
+  at UnityEditor.SettingsManagement.Settings.ContainsKey[T,K] (System.String key, System.String repositoryName) [0x0002d] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/Settings.cs:249 
+  at UnityEditor.SettingsManagement.Settings.ContainsKey[T] (System.String key, UnityEditor.SettingsScope scope) [0x00004] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/Settings.cs:217 
+  at UnityEditor.TestTools.CodeCoverage.CoveragePreferencesImplementation.GetBool (System.String key, System.Boolean defaultValue, UnityEditor.SettingsScope scope) [0x00000] in ./Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/Editor/CoveragePreferences.cs:40 
+  at UnityEditor.TestTools.CodeCoverage.CoverageReporterStarter..cctor () [0x0000c] in ./Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/Editor/CoverageReporterListener.cs:148 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:123)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 123)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.924 seconds
+Domain Reload Profiling: 1508ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (382ms)
+		LoadAssemblies (158ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (251ms)
+			TypeCache.Refresh (245ms)
+				TypeCache.ScanAssembly (234ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (924ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (245ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (176ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3931.
+Memory consumption went from 160.0 MB to 159.9 MB.
+Total: 2.609500 ms (FindLiveObjects: 0.145500 ms CreateObjectMapping: 0.052083 ms MarkObjects: 2.369333 ms  DeleteObjects: 0.042042 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+w32error-unix.c: unknown error (60) "Operation timed out"
+IOException: Win32 IO returned ERROR_NOT_SUPPORTED. Path: /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.Save () [0x000e2] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:154 
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in /Users/bokken/build/output/unity/unity/Editor/Mono/AssemblyReloadEvents.cs:27 
+
+(Filename: ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs Line: 154)
+
+Thread 0x16aea3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.579 seconds
+Refreshing native plugins compatible for Editor in 2.71 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+w32error-unix.c: unknown error (60) "Operation timed out"
+System.IO.IOException: Win32 IO returned ERROR_NOT_SUPPORTED. Path: /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+  at System.IO.FileStream.ReadData (System.Runtime.InteropServices.SafeHandle safeHandle, System.Byte[] buf, System.Int32 offset, System.Int32 count) [0x0002d] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.FileStream.ReadInternal (System.Byte[] dest, System.Int32 offset, System.Int32 count) [0x00026] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.FileStream.Read (System.Byte[] array, System.Int32 offset, System.Int32 count) [0x000a1] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.StreamReader.ReadBuffer () [0x00028] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.StreamReader.ReadToEnd () [0x00059] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00009] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.File.ReadAllText (System.String path) [0x0002c] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.TryLoadSavedJson (System.String& json) [0x00016] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:104 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.Init () [0x00010] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:53 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.ContainsKey[T] (System.String key) [0x00000] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:198 
+  at UnityEditor.SettingsManagement.Settings.ContainsKey[T,K] (System.String key, System.String repositoryName) [0x0002d] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/Settings.cs:249 
+  at UnityEditor.SettingsManagement.Settings.ContainsKey[T] (System.String key, UnityEditor.SettingsScope scope) [0x00004] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/Settings.cs:217 
+  at UnityEditor.TestTools.CodeCoverage.CoveragePreferencesImplementation.GetBool (System.String key, System.Boolean defaultValue, UnityEditor.SettingsScope scope) [0x00000] in ./Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/Editor/CoveragePreferences.cs:40 
+  at UnityEditor.TestTools.CodeCoverage.CoverageReporterStarter..cctor () [0x0000c] in ./Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/Editor/CoverageReporterListener.cs:148 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:123)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 123)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.754 seconds
+Domain Reload Profiling: 1333ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (385ms)
+		LoadAssemblies (179ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (234ms)
+			TypeCache.Refresh (231ms)
+				TypeCache.ScanAssembly (210ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (754ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (254ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (179ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3934.
+Memory consumption went from 165.7 MB to 165.6 MB.
+Total: 2.851334 ms (FindLiveObjects: 0.132542 ms CreateObjectMapping: 0.044583 ms MarkObjects: 2.613625 ms  DeleteObjects: 0.059875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+w32error-unix.c: unknown error (60) "Operation timed out"
+IOException: Win32 IO returned ERROR_NOT_SUPPORTED. Path: /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.Save () [0x000e2] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:154 
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in /Users/bokken/build/output/unity/unity/Editor/Mono/AssemblyReloadEvents.cs:27 
+
+(Filename: ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs Line: 154)
+
+Thread 0x16aea3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.548 seconds
+Refreshing native plugins compatible for Editor in 2.28 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+w32error-unix.c: unknown error (60) "Operation timed out"
+System.IO.IOException: Win32 IO returned ERROR_NOT_SUPPORTED. Path: /Users/muneerahmed/Documents/GitHub/newUi.G/My project (13)/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+  at System.IO.FileStream.ReadData (System.Runtime.InteropServices.SafeHandle safeHandle, System.Byte[] buf, System.Int32 offset, System.Int32 count) [0x0002d] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.FileStream.ReadInternal (System.Byte[] dest, System.Int32 offset, System.Int32 count) [0x00026] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.FileStream.Read (System.Byte[] array, System.Int32 offset, System.Int32 count) [0x000a1] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.StreamReader.ReadBuffer () [0x00028] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.StreamReader.ReadToEnd () [0x00059] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00009] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at System.IO.File.ReadAllText (System.String path) [0x0002c] in <eaa95166e74c4ae1a419b6aa5baf90b9>:0 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.TryLoadSavedJson (System.String& json) [0x00016] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:104 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.Init () [0x00010] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:53 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.ContainsKey[T] (System.String key) [0x00000] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs:198 
+  at UnityEditor.SettingsManagement.Settings.ContainsKey[T,K] (System.String key, System.String repositoryName) [0x0002d] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/Settings.cs:249 
+  at UnityEditor.SettingsManagement.Settings.ContainsKey[T] (System.String key, UnityEditor.SettingsScope scope) [0x00004] in ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/Settings.cs:217 
+  at UnityEditor.TestTools.CodeCoverage.CoveragePreferencesImplementation.GetBool (System.String key, System.Boolean defaultValue, UnityEditor.SettingsScope scope) [0x00000] in ./Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/Editor/CoveragePreferences.cs:40 
+  at UnityEditor.TestTools.CodeCoverage.CoverageReporterStarter..cctor () [0x0000c] in ./Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/Editor/CoverageReporterListener.cs:148 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:123)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 123)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.722 seconds
+Domain Reload Profiling: 1270ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (356ms)
+		LoadAssemblies (161ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (223ms)
+			TypeCache.Refresh (217ms)
+				TypeCache.ScanAssembly (208ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (723ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (270ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (197ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3937.
+Memory consumption went from 171.4 MB to 171.3 MB.
+Total: 3.026167 ms (FindLiveObjects: 0.158000 ms CreateObjectMapping: 0.044542 ms MarkObjects: 2.755500 ms  DeleteObjects: 0.067542 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
